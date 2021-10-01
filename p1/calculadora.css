@@ -1,0 +1,35 @@
+*{
+    
+    text-align: center;
+}
+
+.container{
+    margin: 10px;
+    padding: 5px;
+}
+
+.page-title{
+    padding: 5px;
+    margin: 15px;
+    border: 10px black;
+
+}
+
+.page-sub{
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.Campo{
+    padding: 5px;
+    margin: 15px;
+    align-items: stretch;
+
+}
+.botao{
+    padding: 5px;
+    margin: 15px;
+}
