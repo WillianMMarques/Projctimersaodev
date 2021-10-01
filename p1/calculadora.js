@@ -8,8 +8,14 @@ function calcular() {
     
     var nota = (primeiraNota + segundaNota + terceiraNota + quartaNota)/4
 
+   
+    var elementomediaFinal = document.getElementById("mediaFinal")
+    var mediaFinal = nota
     
-    
+    elementomediaFinal.innerHTML = mediaFinal
+
+
+   
     
       console.log(nota)
     
