@@ -6,31 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" >
+    <script src="./index.js"></script>
     <title>Portifolio</title>
 </head>
 
 <body>
     <div class="container">
-    <header class="perfil">
+    <header class="cabecalho">
+        <div class="perfil">
         <img class="perfil-foto" src="https://github.com/WillianMMarques.png">
         <div class="titulo">
             <h1>Willian M Marques</h1>
             <h3>Estudante de Engenharia de software</h3>
         </div>
-
+        </div>
+        <div class="tema">
+            <button onclick="mudarTema()">Alterar tema</button>
+        </div>
+    
     </header>
 
     <main class="projetos">
-        <ul>Projetos</ul>
-        <li><a href="./p1/calculadora.html">📚Calculadora</a></li>
-        <li><a>📈 Conversor</a></li>
-        <li><a>Mentalista</a></li>
-        <li><a>Aluraflix</a></li>
-        <li><a>Tabela de classificação</a></li>
-        <li><a>Super Trunfo</a></li>
+        <ul class="projeto-titulo">Projetos</ul>
+        <li class="projeto-item"><a href="./p1/calculadora.html">📚Calculadora</a></li>
+        <li class="projeto-item"><a>📈 Conversor</a></li>
+        <li class="projeto-item"><a>Mentalista</a></li>
+        <li class="projeto-item"><a>Aluraflix</a></li>
+        <li class="projeto-item"><a>Tabela de classificação</a></li>
+        <li class="projeto-item"><a>Super Trunfo</a></li>
 
     </main>
     </div>
+    
 </body>
 
 </html>
